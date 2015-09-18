@@ -69,7 +69,8 @@ module ::Guard
     end
 
     def run_on_modifications(paths)
-      exec( 'php test.php' )
+      puts nil # 為了讓輸出好看一點XD
+      puts `php test.php`
     end
   end
 end
